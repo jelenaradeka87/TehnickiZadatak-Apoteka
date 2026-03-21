@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/allProductsFragment">
+
+    <fragment
+        android:id="@+id/allProductsFragment"
+        android:name="com.example.tehnickizadatak_apoteka.ui.screens.AllProductsFragment"
+        android:label="@string/all_products" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.tehnickizadatak_apoteka.ui.screens.FavoritesFragment"
+        android:label="@string/favorites" />
+
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.example.tehnickizadatak_apoteka.ui.screens.ProductDetailsFragment"
+        android:label="@string/product_details">
+        <argument
+            android:name="productId"
+            app:argType="integer" />
+    </fragment>
+</navigation>
