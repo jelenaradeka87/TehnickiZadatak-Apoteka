@@ -1,0 +1,8 @@
+Koristila sam repository pattern sa Flow i Coroutines.
+Korišćenje Flow-a omogućava fragmentima da slušaju promene u podacima u realnom vremenu, što je korisno za omiljene proizvode koji mogu da se dodaju dok korisnik gleda listu proizvoda.
+Coroutines su korišćene radi čitljivog asinhronog koda prilikom  API poziva i Room baze.
+Odlučila sam se za Room za čuvanje omiljenih proizvode jer je pouzdaniji od recimo čuvanja u file-u, a i mogu automatski da slušam promene kroy Flow.
+To znači da fragment uvek prikazuje aktuelnu listu omiljenih proizvoda bez dodatnog refresh-a.
+Koristim shimmer efekat za loading dok se proizvodi učitavaju i za moderniji UI.
+Odlučila sam se za Navigation Component jer pojednostavljuje navigaciju između fragmenata i rešava nekoliko problema koji se javljaju kod klasične FragmentTransaction metode, kao 
+što su automatska back-stack kontrola, jasniji prikaz toka aplikacije, fragmenti primaju argumente bez ručnog upravljanja bundle-om
