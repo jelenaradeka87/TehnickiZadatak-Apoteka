@@ -17,7 +17,8 @@ ProductRepository – izvor podataka, bilo da dolaze sa API-a ili iz baze.
 
 Clone repozitorijum sa komandom:
 
-git clone <repo-url>
+git clone <https://github.com/jelenaradeka87/TehnickiZadatak-Apoteka>
+
 Otvoriti u Android Studiu.
 Sinhronizovati Gradle i pokrenuti emulator ili povezan Android uređaj.
 App će prikazati listu proizvoda, klik na proizvod vodi do detalja, a dugme za favorite čuva proizvod lokalno.
