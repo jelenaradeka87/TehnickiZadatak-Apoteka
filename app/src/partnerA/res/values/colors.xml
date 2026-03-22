@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand A palette -->
+    <color name="brand_primary">#00695C</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_secondary">#00897B</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_tertiary">#004D40</color>
+</resources>

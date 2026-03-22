@@ -27,7 +27,26 @@ android {
                 "proguard-rules.pro"
             )
         }
+        debug {
+        }
     }
+
+    flavorDimensions += listOf("brand")
+    productFlavors {
+        create("partnerA") {
+            dimension = "brand"
+            applicationIdSuffix = ".partnera"
+            versionNameSuffix = "-partnerA"
+            resValue("string", "app_name", "Apoteka A")
+        }
+        create("partnerB") {
+            dimension = "brand"
+            applicationIdSuffix = ".partnerb"
+            versionNameSuffix = "-partnerB"
+            resValue("string", "app_name", "Apoteka B")
+        }
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -66,6 +85,7 @@ dependencies {
     //navigation
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation("com.facebook.shimmer:shimmer:0.5.0")
 
     //retrofit
     implementation(libs.retrofit)
