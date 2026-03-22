@@ -4,12 +4,12 @@ import com.example.tehnickizadatak_apoteka.data.local.dao.ProductDao
 import com.example.tehnickizadatak_apoteka.data.local.entity.ProductEntity
 import com.example.tehnickizadatak_apoteka.data.model.ProductResponse
 import com.example.tehnickizadatak_apoteka.data.model.toEntity
-import com.example.tehnickizadatak_apoteka.data.remote.ApiService
+import com.example.tehnickizadatak_apoteka.data.remote.ProductsApi
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 class ProductRepository @Inject constructor(
-    private val api: ApiService,
+    private val api: ProductsApi,
     private val productDao: ProductDao
 ) {
 

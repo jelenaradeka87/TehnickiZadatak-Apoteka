@@ -1,6 +1,7 @@
 package com.example.tehnickizadatak_apoteka.di
 
-import com.example.tehnickizadatak_apoteka.data.remote.ApiService
+import com.example.tehnickizadatak_apoteka.data.remote.ProductsApi
+import com.example.tehnickizadatak_apoteka.utils.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -16,8 +17,6 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
-
-    private const val BASE_URL = "https://dummyjson.com/"
 
     @Provides
     @Singleton
@@ -62,6 +61,6 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun provideApiService(retrofit: Retrofit): ApiService =
-        retrofit.create(ApiService::class.java)
+    fun provideApiService(retrofit: Retrofit): ProductsApi =
+        retrofit.create(ProductsApi::class.java)
 }
