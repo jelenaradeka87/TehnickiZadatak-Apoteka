@@ -1,0 +1,6 @@
+Prilikom objavljivanja nove verzije aplikacije, prvo bih verziju podigla na internal testing, kako bih proverila osnovnu funkcionalnost i stabilnost sa malim brojem internih testera.
+Nakon toga bih koristila closed testing (alpha) kako bi širi, ali i dalje kontrolisan krug korisnika mogao da testira aplikaciju u realnijim uslovima.
+Nakon što se verzija pokaže kao stabilna, primenila bih staged rollout pristup na produkciji kako bih smanjila rizik od potencijalnih problema u produkciji.
+Novu verziju bih prvo pustila manjem broju korisnika npr 10%,uz praćenje crash report-a i eventualnih problema u radu aplikacije, koristeći Firebase Crashlytics.
+Ukoliko ne postoje kritične greške, rollout bi se postepeno povećavao 25%, 50%, 100% . U slučaju problema, rollout bi se zaustavio ili povukao dok se greške ne isprave.
+Na ovaj način minimizujem rizik i obezbeđujem stabilnije iskustvo za korisnike.
