@@ -1,7 +1,7 @@
 package com.example.tehnickizadatak_apoteka.di
 
 import com.example.tehnickizadatak_apoteka.data.remote.ProductsApi
-import com.example.tehnickizadatak_apoteka.utils.Constants.BASE_URL
+import com.example.tehnickizadatak_apoteka.core.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.example.tehnickizadatak_apoteka.utils
+package com.example.tehnickizadatak_apoteka.core
 
 sealed class Resource<T> {
 

@@ -16,7 +16,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.bumptech.glide.Glide
 import com.example.tehnickizadatak_apoteka.R
 import com.example.tehnickizadatak_apoteka.ui.viewModel.ProductDetailsViewModel
-import com.example.tehnickizadatak_apoteka.utils.Resource
+import com.example.tehnickizadatak_apoteka.core.Resource
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 

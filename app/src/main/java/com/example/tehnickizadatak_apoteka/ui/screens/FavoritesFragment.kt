@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.tehnickizadatak_apoteka.R
 import com.example.tehnickizadatak_apoteka.ui.adapter.FavoriteProductAdapter
 import com.example.tehnickizadatak_apoteka.ui.viewModel.FavoritesViewModel
-import com.example.tehnickizadatak_apoteka.utils.Resource
+import com.example.tehnickizadatak_apoteka.core.Resource
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 

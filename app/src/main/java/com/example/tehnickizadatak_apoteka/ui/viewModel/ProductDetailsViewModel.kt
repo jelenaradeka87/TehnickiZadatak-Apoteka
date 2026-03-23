@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.tehnickizadatak_apoteka.data.model.ProductResponse
 import com.example.tehnickizadatak_apoteka.data.repository.ProductRepository
-import com.example.tehnickizadatak_apoteka.utils.Resource
+import com.example.tehnickizadatak_apoteka.core.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

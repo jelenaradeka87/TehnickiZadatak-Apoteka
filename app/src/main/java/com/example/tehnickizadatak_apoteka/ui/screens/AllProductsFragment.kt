@@ -19,8 +19,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.tehnickizadatak_apoteka.R
 import com.example.tehnickizadatak_apoteka.ui.adapter.AllProductsAdapter
 import com.example.tehnickizadatak_apoteka.ui.viewModel.AllProductsViewModel
-import com.example.tehnickizadatak_apoteka.utils.Constants
-import com.example.tehnickizadatak_apoteka.utils.Resource
+import com.example.tehnickizadatak_apoteka.core.Constants
+import com.example.tehnickizadatak_apoteka.core.Resource
 import com.facebook.shimmer.ShimmerFrameLayout
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch

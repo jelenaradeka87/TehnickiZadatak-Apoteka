@@ -35,7 +35,7 @@
                 android:background="@android:color/transparent"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="fitCenter"
-                tools:src="@android:drawable/ic_menu_gallery" />
+                tools:src="@android:drawable/ic_menu_gallery"/>
 
             <TextView
                 android:id="@+id/tvName"
